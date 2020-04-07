@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>isi Kontak</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<body>
+    <center>
+        <h1>Form Kontak</h1>
+        <div class="container">
+            <form action="simpan_kontak.php" method="post">
+                <table style="width: 350px">
+                    <tr>
+                        <td>Nama</td>
+                        <td colspan="2"><input type="text" name="nama" class="input" required></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis kelamin</td>
+                        <td><input type="radio" name="jkel" value="laki-laki" required>Laki-laki</td>
+                        <td><input type="radio" name="jkel" value="perempuan" required>Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td colspan="2"><input type="text" name="email" class="input" required></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td colspan="2"><input type="text" name="alamat" class="input" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kota</td>
+                        <td colspan="2"><input type="text" name="kota" class="input" required></td>
+                    </tr>
+                    <tr style="height: 50px">
+                        <td>Pesan</td>
+                        <td colspan="2"><textarea name="pesan" cols="30" rows="10" class="input" required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="submit" class="bt" value="simpan"><input type="reset" class="bt"
+                                value="reset"></td>
+                    </tr>
+                </table>
+                <br>
+            </form>
+    </center>
+</body>
+
+</html>
